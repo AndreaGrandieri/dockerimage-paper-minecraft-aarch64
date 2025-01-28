@@ -1,4 +1,4 @@
-# andreagrandieri/paper-minecraft
+# andreagrandieri/paper-minecraft-aarch64
 
 Docker image for a Paper Minecraft Server.
 
