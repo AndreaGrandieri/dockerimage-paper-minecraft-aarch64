@@ -109,7 +109,7 @@ services:
       # RCON Console
       - "<EXPOSED_PORT_2>:25575"
     environment:
-      JVM_MIN_MEM: "6G"
+      JVM_MIN_MEM: "2G"
       JVM_MAX_MEM: "8G"
       JVM_XX_OPTS: >
         -XX:+UseG1GC
