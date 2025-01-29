@@ -10,7 +10,8 @@ LABEL local_availability_paper="paper-1.21.4-126.jar"
 LABEL local_availability_server_properties_builder="server.properties-builder.py"
 
 RUN apt-get update
-RUN apt-get install -y bash tar python3
+RUN apt-get install -y bash python3
+RUN apt-get install -y tar curl nano
 
 # Install OpenJDK 23.0.2 from local availability
 ADD openjdk-23.0.2_linux-aarch64_bin.tar.gz /opt/
